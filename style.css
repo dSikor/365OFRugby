@@ -5,4 +5,47 @@ body {
     background-position: center center;
     background-attachment: fixed;
     box-sizing: border-box;
+
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+    .section-nav-tit {
+        flex-grow: 1;
+        background-color: red;
+    }
+
+    .section-news {
+        flex-grow: 2;
+        background-color: yellowgreen;
+    }
+
+    .section-footer {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0 5%;
+    }
+
+    .section-nav-tit__tittle {
+        text-align: center;
+    }
+
+    .section-nav-tit__navigation {
+        text-align: center;
+    }
 }
