@@ -6,9 +6,9 @@ body {
     background-attachment: fixed;
     box-sizing: border-box;
 
-    color: yellow;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: normal;
+    color: rgb(245, 245, 104);
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
 }
 
 .container {
