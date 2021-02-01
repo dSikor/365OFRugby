@@ -15,6 +15,7 @@ body {
     display: flex;
     height: 100vh;
     flex-direction: column;
+    padding: 2%;
 
 }
 
@@ -46,6 +47,31 @@ body {
     }
 
     .section-nav-tit__navigation {
-        text-align: center;
+        background-color: rgb(26, 206, 101);
+        /* height: 100%; */
     }
+
+    .section-nav-tit__navigation ul {
+        display: flex;
+        /* height: 100%; */
+        /* justify-content: center; */
+    }
+
+    .section-nav-tit__navigation li {
+        flex: 1 1 0;
+    }
+
+    .section-nav-tit__navigation a {
+        text-decoration: none;
+        text-align: center;
+        color: yellow;
+        display: block;
+        padding: 1%;
+    }
+
+    .section-nav-tit__navigation a:hover {
+        background-color: aqua;
+    }
+
+
 }
