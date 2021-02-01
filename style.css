@@ -47,8 +47,8 @@ body {
     }
 
     .section-nav-tit__navigation {
-        background-color: rgb(26, 206, 101);
-        /* height: 100%; */
+        font-size: 15px;
+        border: rgb(217, 255, 0) solid;
     }
 
     .section-nav-tit__navigation ul {
