@@ -40,6 +40,12 @@ body {
         align-items: center;
     }
 
+    .section-news h1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
     .section-news__foto {
         flex-grow: 1;
         margin: 4% 4%;
