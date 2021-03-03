@@ -17,6 +17,11 @@ menuBTN.addEventListener('click',()=>{
   }
 });
 
+    window.onresize = function(event) {
+    menuBTN.classList.remove('open');
+    menuElements.classList.remove('show');
+    menuOpen = false;
+    };
 
 
 
