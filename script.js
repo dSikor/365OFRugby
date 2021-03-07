@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+  $('.menu-elements ul a:last').css('border-bottom', 'none');
   
 const menuBTN = document.querySelector('.section-nav-tit__btn');
 const menuElements = document.querySelector('.menu-elements');
