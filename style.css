@@ -118,7 +118,13 @@ body {
 
 }
 
-@media screen and (max-width: 199px) {
+@media screen and (max-width: 200px) {
+
+    .section-nav-tit__burger {
+        display: block;
+    }
+
+
     .section-nav-tit__navigation {
         display: none;
     }
